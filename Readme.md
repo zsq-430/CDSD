@@ -1,5 +1,5 @@
 # Generalized Document Tampering Localization via Color and Semantic Disentanglement  
-# 通过颜色与语义解耦的广义文档篡改定位  
+# 基于颜色与语义解耦的文档篡改定位方法
 
 **2025-09-25: Code is already public**  
 **2025-09-25: 代码已公开**  
