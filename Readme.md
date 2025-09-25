@@ -1,8 +1,35 @@
 # Generalized Document Tampering Localization via Color and Semantic Disentanglement  
 # 通过颜色与语义解耦的广义文档篡改定位  
 
-**Code Release Coming Soon**  
-**代码即将公开**  
+**Code is already public**  
+**代码已公开**  
+
+## 项目结构 / Project Structure
+```
+DTL_CDSD/
+├── code/                           # 主要代码目录
+│   ├── dtd.py                      # 核心模型定义文件
+│   ├── dtdtrain_CD.py              # CD训练脚本
+│   ├── dtdEval.py                  # CD评估脚本
+│   ├── dtdEval_npy_ours.py         # 用于输出npy，供SD模块使用
+│   ├── data_loader.py              # 数据加载器
+│   ├── fph.py                      # 频率感知头(Frequency Perception Head)
+│   ├── swins.py                    # Swin Transformer实现
+│   ├── losses/                     # 损失函数模块
+│   │   ├── __init__.py
+│   │   ├── lovasz.py               # Lovász损失
+│   │   ├── soft_ce.py              # 软交叉熵损失
+│   │   └── ...                     # 其他损失函数
+│   ├── SD_Semantic_Disentanglement/ # 语义解离模块
+│   │   ├── 3_npy_clustering.py     # SD聚类工具
+│   │   └── mdb_json/               # 元数据JSON文件
+│   ├── checkpoint/                 # 模型检查点
+│   │   └── model_load/             # 预训练模型
+│   ├── pks/                        # 量化表数据
+│   └── tool/                       # 工具文件
+│       └── DTD_MedianColor.json   # 中值颜色配置
+└── qt_table.pk                     # 量化表文件
+```
 
 ---
 
