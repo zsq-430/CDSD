@@ -36,7 +36,7 @@ DTL_CDSD/
 ## 📖 Overview | 项目概述  
 This repository contains the official implementation of the paper:  
 **Generalized Document Tampering Localization via Color and Semantic Disentanglement**  
-本仓库为论文 **[通过颜色与语义解耦的广义文档篡改定位](论文链接)** 的官方实现代码。
+本仓库为论文 **[通过颜色与语义解耦的广义文档篡改定位](https://ieeexplore.ieee.org/document/11122522)** 的官方实现代码。
 
 > 🔥 **Key Idea**: We propose a generalized framework that disentangles **color patterns** and **semantic context** to localize multi-type document tampering (text alteration, image forgery, layout manipulation, etc.).  
 > 🔥 **核心创新**: 通过解耦文档图像的**颜色特征**与**语义上下文**，实现对文本篡改、图像伪造、版面篡改等多类型篡改的广义定位。
@@ -55,7 +55,7 @@ This repository contains the official implementation of the paper:
 ---
 
 ## 🛠️ Technical Overview | 技术框架  
-![model](image/image.png)
+![DTD_CDSD Project Architecture](image/image.png)
 
 ---
 
