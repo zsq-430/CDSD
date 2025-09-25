@@ -55,8 +55,7 @@ This repository contains the official implementation of the paper:
 ---
 
 ## 🛠️ Technical Overview | 技术框架  
-*Technical framework will be released with the code.*  
-*技术架构图将随代码一同公开。*
+![model](image/image.png)
 
 ---
 
