@@ -59,20 +59,16 @@ This repository contains the official implementation of the paper:
 
 ---
 
-## ⏳ Coming Soon | 即将发布  
-We are optimizing code readability and preparing evaluation protocols.  
-我们正在优化代码可读性并准备标准化评估协议。  
-
-**Expected Release**: Q4 2025  
-**预计时间**: 2025年第四季度  
-
----
 
 ## 📚 Citation | 引用  
 ```bibtex
-@article{yourpaper2025,
-  title={Generalized Document Tampering Localization via Color and Semantic Disentanglement},
-  author={Your Name, Co-authors},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
-}
+@ARTICLE{11122522,
+  author={Zheng, Shiqiang and Chen, Changsheng and Chen, Shen and Yao, Taiping and Ding, Shouhong and Li, Bin and Huang, Jiwu},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Generalized Document Tampering Localization via Color and Semantic Disentanglement}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Semantics;Image color analysis;Feature extraction;Location awareness;Videos;Robustness;Disentangled representation learning;Circuits and systems;Training;Image forensics;Document tampering localization;Feature disentanglement;Image manipulation detection;Image forensics;Semantic segmentation},
+  doi={10.1109/TCSVT.2025.3597602}}
