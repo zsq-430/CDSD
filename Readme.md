@@ -36,7 +36,7 @@ DTL_CDSD/
 ## 📖 Overview | 项目概述  
 This repository contains the official implementation of the paper:  
 **Generalized Document Tampering Localization via Color and Semantic Disentanglement**  
-本仓库为论文 **[通过颜色与语义解耦的广义文档篡改定位](https://ieeexplore.ieee.org/document/11122522)** 的官方实现代码。
+本仓库为论文 **[基于颜色与语义解耦的文档篡改定位方法](https://ieeexplore.ieee.org/document/11122522)** 的官方实现代码。
 
 ### Core Innovations | 核心创新
 
