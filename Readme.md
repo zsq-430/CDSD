@@ -38,8 +38,11 @@ This repository contains the official implementation of the paper:
 **Generalized Document Tampering Localization via Color and Semantic Disentanglement**  
 本仓库为论文 **[通过颜色与语义解耦的广义文档篡改定位](https://ieeexplore.ieee.org/document/11122522)** 的官方实现代码。
 
-> 🔥 **Key Idea**: We propose a generalized framework that disentangles **color patterns** and **semantic context** to localize multi-type document tampering (text alteration, image forgery, layout manipulation, etc.).  
-> 🔥 **核心创新**: 通过解耦文档图像的**颜色特征**与**语义上下文**，实现对文本篡改、图像伪造、版面篡改等多类型篡改的广义定位。
+### Core Innovations | 核心创新
+
+We propose a knowledge-guided disentanglement representation learning method that separates color information from forensic features through explicit utilization of document color as supervision signals, improving generalization performance across different document types. Additionally, we introduce semantic disentanglement by applying global clustering to tampering probability maps, emphasizing tampering probabilities while ignoring local semantic details, enabling effective adaptation to diverse and flexible tampering operations without additional training.
+
+我们提出了一种知识引导的解耦表示学习方法，通过显式利用文档颜色作为监督信号将颜色信息从篡改特征中分离出来，提高了在不同类型文档上的泛化性能。同时，我们通过将全局聚类应用于篡改概率图来实现语义解耦，强调篡改概率而忽略局部语义细节，能够有效适应文档图像中篡改操作的多样性和灵活性，无需额外训练。
 
 ---
 
