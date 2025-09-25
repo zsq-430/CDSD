@@ -44,13 +44,12 @@ This repository contains the official implementation of the paper:
 ---
 
 ## 🚀 Features | 核心特点  
-- **Color Disentanglement**: Eliminates color interference for robust texture analysis  
-- **Semantic Consistency**: Preserves document structure under complex manipulations  
-- **Cross-domain Generalization**: Adapts to scanned/printed/digital-born documents  
+- **Color Disentanglement**: To address the issue of background color interference in document tampering localization tasks, we introduce explicit disentanglement of color and forensic features.
+- **Semantic Disentanglement**: To alleviate misjudgment problems caused by semantic feature dependency, the core idea is to model the tampering probability distribution as the primary target, rather than relying on features containing semantic information.
 
-- **颜色解耦**: 消除色彩干扰，增强纹理特征鲁棒性  
-- **语义一致性**: 保持复杂篡改下的文档结构特征  
-- **跨域泛化**: 兼容扫描/印刷/数字原生文档  
+- **颜色解耦**: 针对文档图像篡改定位任务中易受背景颜色干扰的问题，引入显式的颜色与取证特征解耦。
+- **语义解耦**: 缓解语义特征依赖所引发的误判问题，其核心思路是以篡改概率分布为主要建模对象，而非依赖包含语义的特征。
+
 
 ---
 
